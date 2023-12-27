@@ -4,9 +4,10 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: { fontFamily: {
-      'vast-shadow': ['Vast Shadow', 'serif'],
-    },},
-  },
+   
+        extend: { fontFamily: {
+          'Roboto': ['Roboto', ' sans-serif'],
+        },},
+      },
   plugins: [],
 }
