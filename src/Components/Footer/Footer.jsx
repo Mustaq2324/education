@@ -1,4 +1,4 @@
-import Font, { Text } from 'react-font'
+
 
 function Footer () {
 
@@ -33,8 +33,8 @@ function Footer () {
     return (
         <footer className="text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto md:px-8">
             <div className="max-w-lg sm:mx-auto sm:text-center">
-            <Font family="Merriweather">
-           <h1  className="text-4xl ">Link's <span className="text-[#FBCB1D]">Institute</span></h1></Font>
+            
+           <h1  className="text-4xl ">Link's <span className="text-[#FBCB1D]">Institute</span></h1>
                 <p className="leading-relaxed mt-2 text-[15px]">
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                 </p>

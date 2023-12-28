@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";  
-import Font, { Text } from 'react-font'
+
 import { IoCloseCircle } from "react-icons/io5";
 
 
@@ -32,7 +32,7 @@ function Navbar() {
             <div className="flex items-center justify-between lg:px-4 ">
 
             <div className="mt-1 lg:flex items-center justify-center hidden pb-2 lg:pb-0 me-8 lg:me-0">
-              <Font family="Rubik">
+           
               <ul className="flex gap-5 justify-center text-lg items-center ">
               <li className="text-white cursor-pointer hover:text-[#FBCB1D]">
               Home
@@ -47,12 +47,12 @@ function Navbar() {
                    Teacher
                 </li> 
               </ul>
-              </Font>
+         
             </div>
               
              <div>
-            <Font family="Merriweather">
-           <h1  className="text-white text-4xl ">Link's <span className="text-[#FBCB1D]">Institute</span></h1></Font>
+          
+           <h1  className="text-white text-4xl ">Link's <span className="text-[#FBCB1D]">Institute</span></h1>
                </div>
              
               {/* mobile */}
@@ -68,9 +68,9 @@ function Navbar() {
         
 
         <div className="lg:block hidden">
-          <Font family="Nunito">
+       
           <button className="bg-[#FBCB1D] px-4 py-2 rounded  font-semibold hover:bg-white transition-all duration-500 " >Work With us</button>
-        </Font>
+       
         </div>
 
 
@@ -84,7 +84,7 @@ function Navbar() {
                   : "h-0 overflow-hidden transition-all duration-700 w-[100%]  opacity-0 lg:hidden"
               }
             >
-                <Font family="Rubik">
+               
               <ul className="flex flex-col ms-2 justify-center font-[Lato] gap-3 overflow-hidden ">
               <li onClick={handleclick} className="text-white mt-2 ms-4 cursor-pointer hover:text-[#FBCB1D]">
                Home
@@ -101,7 +101,7 @@ function Navbar() {
                 </li>
                      
               </ul>
-              </Font>
+         
             </div>
             {/* laptop  */}
             
