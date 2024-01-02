@@ -9,6 +9,7 @@ import Feature from '../Components/Feature/Feature'
 import Faq from '../Components/Faq/Faq'
 import Footer from '../Components/Footer/Footer'
 import Section from '../Components/Section/Section'
+import Modern from '../Components/Modern'
 
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
     <div >
         <Navbar/>
         <Hero/>
+        <Modern/>
     <Card/>
     <Newsletter/>
     <Static/>

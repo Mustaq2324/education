@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik+Broken+Fax&display=swap');
-.swiper-button-prev,
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik+Broken+Fax&family=Rubik+Doodle+Triangles&display=swap');.swiper-button-prev,
 .swiper-button-next {
   color: #29458E !important;
 }
