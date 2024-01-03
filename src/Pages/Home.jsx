@@ -10,6 +10,8 @@ import Faq from '../Components/Faq/Faq'
 import Footer from '../Components/Footer/Footer'
 import Section from '../Components/Section/Section'
 import Modern from '../Components/Modern'
+import Technology from '../Components/Technology'
+import Support from '../Components/Support'
 
 
 function Home() {
@@ -18,6 +20,8 @@ function Home() {
         <Navbar/>
         <Hero/>
         <Modern/>
+        <Technology/>
+        <Support/>
     <Card/>
     <Newsletter/>
     <Static/>
