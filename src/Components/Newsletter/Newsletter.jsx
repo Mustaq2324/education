@@ -1,7 +1,7 @@
 function Newsletter ()  {
 
     return (
-        <section className="py-14 max-w-screen-xl mx-auto">
+        <section className="py-14 mx-auto bg-[#FAFAFC]">
             <div className="relative overflow-hidden mx-4 px-4 py-14 rounded-2xl bg-[#140E0E] md:px-8 md:mx-8">
                 <div className="relative z-10 max-w-xl mx-auto sm:text-center">
                     <div className="space-y-3">

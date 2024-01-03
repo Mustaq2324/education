@@ -22,13 +22,13 @@ function Home() {
         <Modern/>
         <Technology/>
         <Support/>
-    <Card/>
-    <Newsletter/>
+    {/* <Card/> */}
     <Static/>
     <Feature/>
     <Section/> 
     <Faq/>
     <Testimonials/>
+    <Newsletter/>
     <Footer/>
     </div>
   )
